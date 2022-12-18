@@ -30,3 +30,9 @@ a billion {plural_noun4} throughout the world every four {plural_noun5}.
 
 #Print and show the paragraph to the user
 print(The_Olympics)
+
+#Handling of the program exit
+import sys
+exit_program = input('Press any key to exit')
+if exit_program:
+    sys.exit()
